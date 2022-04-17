@@ -1,0 +1,18 @@
+.team-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  &__slogan{
+    color: #4e4eba;
+  }
+  &__desc{
+    color: #ef3434;
+  }
+  &__contact{
+    display: grid;
+    a{
+      color: #ef3434;
+      text-decoration: none;
+    }
+  }
+}

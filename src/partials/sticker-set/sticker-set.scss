@@ -1,0 +1,34 @@
+.sticker-set{
+  display: grid;
+  &__info{
+    display: grid;
+  }
+  &__stickers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    &__item{
+      display: grid;
+    }
+    &__item-content{
+      display: grid;
+      place-items: center;
+      padding: 1rem;
+      gap: 1rem;
+    }
+  }
+  &__open-button{
+    display: grid;
+    place-items: center;
+    border: 1px solid #000;
+    border-radius: unset;
+  }
+  &__members{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: .5rem;
+    img{
+      max-width: 100%;
+    }
+  }
+}

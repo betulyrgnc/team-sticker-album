@@ -1,0 +1,2 @@
+export const STICKER_SET_COUNT = 2;
+export const DAILY_STICKER_OPEN_RIGHT_PER_DAY = 3;

@@ -1,0 +1,38 @@
+.team-list {
+
+}
+.first {
+ .team-member-list {
+  &__items {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 1rem;
+   place-items: center;
+   padding: .5rem;
+  }
+ }
+}
+
+.second {
+ .team-member-list {
+  &__items {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 1rem;
+   place-items: center;
+   padding: 1rem;
+  }
+ }
+}
+
+.third {
+ padding: 1rem;
+ .team-member-list{
+  &__items {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 1rem;
+   place-items: center;
+  }
+ }
+}

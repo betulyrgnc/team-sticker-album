@@ -1,0 +1,53 @@
+@mixin fontSize($font-size) {
+  html, body {
+    font-size: $font-size;
+  }
+}
+
+@mixin for-xxl {
+  @media only screen and (min-width: 1680px) {
+    @content;
+  }
+}
+
+@mixin for-xl {
+  @media only screen and (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin for-lg {
+  @media only screen and (min-width: 1025px) {
+    @content;
+  }
+}
+
+@mixin for-md {
+  @media only screen and (min-width: 768px) and (min-height: 768px) {
+    @content;
+  }
+}
+
+@mixin for-sm {
+  @media only screen and (min-width: 568px) and (min-height: 568px) {
+    @content;
+  }
+}
+
+@mixin for-xs {
+  @media only screen and (min-width: 460px) and (min-height: 460px) {
+    @content;
+  }
+}
+
+@mixin for-mobile-portrait {
+  @media only screen and (min-width: 320px) and (max-width: 896px) and (orientation: portrait) {
+    @content
+  }
+}
+
+@mixin for-mobile-landscape {
+  @media only screen and (min-width: 320px) and (max-width: 896px) and (orientation: landscape) {
+    @content
+  }
+}
